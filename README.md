@@ -1,120 +1,54 @@
-Financial Analysis in Python
-============================
-
-Tutorial at PyData Boston 2013 July 27, 2013 at 4:30 pm.
-http://pydata.org/bos2013/schedule/
-
-You can view the video of the talk [here](https://vimeo.com/73875233).
-
-*Thomas Wiecki, Quantopian Inc. and Brown University*
-
-Thomas Wiecki is a Quantitative
-Researcher at [Quantopian Inc](https://www.quantopian.com) -- a Boston
-based startup providing you with the first browser based algorithmic
-trading platform -- and a PhD student at Brown University where he
-studies Computational Cognitive Neuroscience. He specializes in
-Bayesian Inference, Machine Learning, Scientific Computing in Python,
-algorithmic trading and Computational Psychiatry.
-
-Description
------------
-
-This tutorial will provide hands-on experience of various data
-analysis tools relevant for financial analysis in Python. We will
-first see how financial data can be imported from various sources such
-as Yahoo! finance. Pandas, Matplotlib and statsmodels can be used for
-basic and more advanced time-series analysis. While rudimentary
-backtesting of investment strategies on historical data can be carried
-out using Pandas, a more realistic simulation that considers
-transaction costs, slippage and avoids look-ahead bias, introduces
-various complexities. We will then see how Zipline, an open-source
-streaming-based financial simulator written in Python, can make
-realistic backtesting much easier. After going through some simple
-example algorithms we will see how statistical Python libraries like
-scikits.learn can easily be incorporated with Zipline to build
-state-of-the art trading algorithms. Finally, I will briefly show how
-the same algorithm code can be run with minimal code changes on
-Quantopian -- a free, browser-based platform for developing
-algorithmic trading models.
-
-The target audience for the tutorial includes all new Python users,
-though we recommend that users also attend the NumPy and IPython
-session in the introductory track.
-
-What you will learn
--------------------
-
-* Timeseries analysis using Pandas
-* Using Google Trends to predict market movements
-* Build your own trading strategies using Zipline
-* Common trading strategies:
-   * Momentum trading
-   * Mean-reversion
-
-Student Instructions
---------------------
-
-For students familiar with Git, you may simply clone this repository
-to obtain all the materials (IPython notebooks and data) for the
-tutorial. Alternatively, you may [download a zip
-file](https://github.com/twiecki/financial-analysis-python-tutorial/archive/master.zip)
-containing the materials. A third option is to simply view static
-notebooks by clicking on the titles of each section below.
-
-I strongly encourage you to set up the environment on your own
-computer so that you can follow along during the tutorial.
-
-After you have the materials, from a command shell cd into the financial-analysis-in-python-tutorial directory and execute:
 ```
-ipython notebook --pylab=inline
+******************************************************************************************************
+       ________  ________    _________.__           .__  .__             ________     _______   
+  ____/   __   \/   __   \  /   _____/|  |__   ____ |  | |  |   ___  __  \_____  \    \   _  \  
+_/ ___\____    /\____    /  \_____  \ |  |  \_/ __ \|  | |  |   \  \/ /   /  ____/    /  /_\  \ 
+\  \___  /    /    /    /   /        \|   Y  \  ___/|  |_|  |__  \   /   /       \    \  \_/   \
+ \___  >/____/    /____/   /_______  /|___|  /\___  >____/____/   \_/ /\ \_______ \ /\ \_____  /
+     \/                            \/      \/     \/                  \/         \/ \/       \/ 
+  _             _____ _                __          ___    _ __ ______
+ | |           |  __ (_)               \ \        / / |  | /_ |___  /
+ | |__  _   _  | |__) | _ __   ___  _   \ \  /\  / /| |__| || |  / / 
+ | '_ \| | | | |  ___/ | '_ \ / _ \| | | \ \/  \/ / |  __  || | / /  
+ | |_) | |_| | | |   | | | | | (_) | |_| |\  /\  /  | |  | || |/ /__ 
+ |_.__/ \__, | |_|   |_|_| |_|\___/ \__, | \/  \/   |_|  |_||_/_____|
+         __/ |                       __/ |                           
+        |___/                       |___/                            
+
+******************************************************************************************************
 ```
+# C99Shell-PHP7
+PHP 7 and safe-build Update of the popular C99 variant of PHP Shell.
 
-This should open a new browser window from where you can access the notebooks.
+c99shell.php v.2.0 (PHP 7) (25.02.2019) Updated by: PinoyWH1Z for PHP 7
 
-Outline
--------
+# About C99Shell
+An excellent example of a web shell is the c99 variant, which is a PHP shell (most of them calls it malware) often uploaded to a vulnerable web application to give hackers an interface. The c99 shell lets the attacker take control of the processes of the Internet server, allowing him or her give commands on the server as the account under which the threat is operating. It lets the hacker upload, browse the file system, edit and view files, in addition, to deleting, moving them and changing permissions. Finding a c99 shell is an excellent way to identify a compromise on a system. The c99 shell is about 1500 lines long if packed and 4900+ if properly displayed, and some of its traits include showing security measures the web server may use, a file viewer that has permissions, a place where the attacker can operate custom PHP code (PHP malware c99 shell).
 
-You can view the video of the talk [here](https://vimeo.com/73875233).
+There are different variants of the c99 shell that are being used today. This github release is an example of a relatively recent one. It has many signatures that can be utilized to write protective countermeasures.
 
-[1. Pandas
-basics](http://nbviewer.ipython.org/urls/raw.github.com/twiecki/financial-analysis-python-tutorial/master/1.%2520Pandas%2520Basics.ipynb)
-* Creating/Loading time-series data
-* Series and DataFrame: First steps
-* Data alignment
-* Plotting basics
-* Common financial analyses (returns, correlations, ...)
+# About this release:
+I've been using php shells as part of my Ethical Hacking activities.
+And I have noticed that most of the php shells that are downloadable online are encrypted with malicious codes and without you knowing, others also insert trackers so they can see where you placed your php shell at.
 
-[2. Pandas replication of Google Trends
-paper](http://nbviewer.ipython.org/urls/raw.github.com/twiecki/financial-analysis-python-tutorial/master/2.%2520Pandas%2520replication%2520of%2520Google%2520Trends%2520paper.ipynb)
-* Replication of recent paper: [Quantifying Trading Behavior in Financial Markets Using Google Trends](http://www.nature.com/srep/2013/130425/srep01684/pdf/srep01684.pdf)
-* Uses Google search trends to predict market movements
+I've came up with an idea such as "what if I get the stable version of c99shell and reverse the encrypted codes, remove the malicious codes and release it to public for good."
+And yeah, I decided to do it, but I noticed that most of the servers now have upgraded their apache service to PHP 7, sadly, the codes that I have is for PHP 5.3 and below.
 
-[3. Backtesting using
-Zipline](http://nbviewer.ipython.org/urls/raw.github.com/twiecki/financial-analysis-python-tutorial/master/3.%2520Backtesting%2520using%2520Zipline.ipynb)
-* What gets modeled? Why?
-* Stream-based computing
-* My first algorithm
-* Example momentum trade algorithm
-* Example mean-reversion algorithm
+The good thing is.. only few lines of syntax are needed to be altered, so I did it.
 
-[4. Quantopian: Community, Data, Infrastructure, Live Trading](https://www.quantopian.com)
-* Quick intro
-* Example algorithm
+Here you go mates, a clean and safe-build version of the most stable c99shell that I can see.
 
-Required Packages
------------------
+If ever you see more bugs, please create an issue or just fork it, update it and do a pull request so I can check it and update the codes for stabilization.
 
-* Python 2.7 (*Python 3 is not supported at this point!*)
-* pandas >= 0.11.1
-* NumPy >= 1.6.1
-* SciPy >= 0.7.0
-* Matplotlib >= 1.0.0
-* Zipline == 0.5.10
+# PS: 
+This is a widely used php shell by hackers, so don't freak out if your anti-virus/anti-malware detects this php file as malicious or treated as backdoor.
+Since you can see the codes in my re-released project, you can read all throughout the codes and inspect or even debug as much as you like.
 
-The easiest way to install all the necessary packages (except Zipline) is
-to use Continuum Analytics' [Anaconda](http://docs.continuum.io/anaconda/install.html).
+# Disclaimer:
+I will NOT be held responsible for any unethical use of this hacking tool.
 
-Zipline can then be installed via pip:
-```
-pip install zipline
-```
+# Preview:
+![Demo 01 Prev SS](/Screenshots/demo_01.png)
+
+# Official Release: 
+[c99shell_v2.0.zip](https://github.com/PinoyWH1Z/C99Shell-PHP7/releases/download/v2.0.0/c99shell_v2.0.zip) (`Zip Password: PinoyWH1Z`)
